@@ -9,6 +9,7 @@ import {
   FaTruck,
   FaQuestionCircle,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [cartCount, setCartCount] = useState(2);
@@ -49,9 +50,12 @@ const Navbar = () => {
           {dropdownOpen && (
             <div className="absolute right-0 mt-3 w-56 bg-white shadow-lg rounded-lg z-50">
               <div className="px-4 py-2 border-b">
-                <button className="bg-yellow-500 w-full text-white font-bold py-2 rounded">
+                <Link
+                  to={"/register"}
+                  className="bg-yellow-500 w-full text-white font-bold py-2 rounded"
+                >
                   Sign In or Sign Up
-                </button>
+                </Link>
               </div>
               <ul className="py-2">
                 <li className="px-4 py-2 hover:bg-gray-100 flex items-center">
