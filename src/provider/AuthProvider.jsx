@@ -71,6 +71,7 @@ const AuthProvider = ({ children }) => {
 
       if (currentUser?.email) {
         const user = { email: currentUser.email };
+        console.log(user);
 
         // Fetch JWT token from the backend
         //   try {
