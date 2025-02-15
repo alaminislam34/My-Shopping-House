@@ -1,0 +1,62 @@
+[
+  {
+    "product_name": "Wireless Headphones",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 120,
+    "rating": 4.5
+  },
+  {
+    "product_name": "Smartphone X12",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 899,
+    "rating": 4.8
+  },
+  {
+    "product_name": "Gaming Mouse",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 45,
+    "rating": 4.3
+  },
+  {
+    "product_name": "Mechanical Keyboard",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 80,
+    "rating": 4.6
+  },
+  {
+    "product_name": "Smart LED TV",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 1200,
+    "rating": 4.7
+  },
+  {
+    "product_name": "Fitness Smartwatch",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 250,
+    "rating": 4.4
+  },
+  {
+    "product_name": "Portable Bluetooth Speaker",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 60,
+    "rating": 4.2
+  },
+  {
+    "product_name": "DSLR Camera",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 1500,
+    "rating": 4.9
+  },
+  {
+    "product_name": "Gaming Chair",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 300,
+    "rating": 4.5
+  },
+  {
+    "product_name": "External Hard Drive 1TB",
+    "image": "https://selltech.com.bd/image/cache/catalog/PC-Power-TOP75-Gaming-Mechanical-Keyboard-1000x1000.jpg-550x550.jpg.webp",
+    "price": 90,
+    "rating": 4.3
+  }
+]

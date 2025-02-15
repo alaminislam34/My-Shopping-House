@@ -18,6 +18,7 @@ const Navbar = () => {
   const [userDropdown, setUserDropdown] = useState(false);
   const [cartDropdown, setCartDropdown] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [sticky, setSticky] = useState(false);
   const navigate = useNavigate();
   // Reference for detecting outside click
   const userRef = useRef(null);
@@ -38,9 +39,28 @@ const Navbar = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="bg-white shadow-md relative">
+    <div
+      className={`bg-white shadow-md transition-transform duration-500 ${
+        sticky ? "fixed top-0 left-0 w-full z-50" : "relative"
+      }`}
+    >
       <nav className="flex justify-between items-center max-w-7xl mx-auto px-4 py-3">
         {/* Left - Menu Icon */}
         <div className="flex items-center space-x-2 ">
@@ -110,7 +130,7 @@ const Navbar = () => {
         </div>
 
         {/* Right - Icons */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 mr-2">
           {/* Mobile Search Toggle */}
           <button
             onClick={() => setSearchOpen(!searchOpen)}
